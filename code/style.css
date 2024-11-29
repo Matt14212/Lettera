@@ -230,13 +230,25 @@ footer {
 }
 
 .carrossel {
-  width: 1000px;
+  width: 950px;
   height: 500px;
   margin: 0 auto;
   border-bottom-width: 10px;
   margin-bottom: 3rem;
   margin-top: 3rem;
 }
+
+@media (max-width: 1080px) { 
+  .carrossel { 
+    max-width: 85%; /* Adapta ao tamanho da tela, mas não excede o limite */
+    height: auto; /* Mantém a proporção correta se o conteúdo variar */
+    margin: 0 auto;
+    border-bottom-width: 10px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+}
+
 
 /*------------- jp ---------------*/
 
