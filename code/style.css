@@ -95,7 +95,17 @@ body {
   margin-right: 0;
   margin-bottom: 50px;
   width: 1000px !important;
-  height: 300px;
+  min-height: 300px;
+}
+
+@media (max-width:1080px) { 
+  .Nossaslojas { 
+    border-radius: 15px; 
+    margin: 0 auto; 
+    max-width: 70%; 
+    padding: 20px; 
+    min-height: 300px;
+  }
 }
 
 /*-------------- NAVBAR -----------*/
@@ -183,6 +193,7 @@ footer {
     text-align: center;
   }
 }
+
 
 /*-------------- PRINCIPAL -----------*/
 
