@@ -5,66 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lettera</title>
-
   <link rel="stylesheet" type="text/css" href="API-Estilizado/styleAPI.css">
   <script src="API-Estilizado/scriptAPI.js"></script>
-
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-  
   <div class="barra_navegar">
-
-    <nav class="navbar navbar-light bg-success">
-      <div class="container-fluid w-100">
-        <a class="navbar-brand text-white" href="home.html">
-          LETTERA
-        </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="home.html">LETERRA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <img class="navbar-toggler-icon" src="img/hamburger.png" alt="">
         </button>
-
-        <!--ADICIONEI UM STYLE só pra alterar a fonte, depois otimiza-->
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item dropdown">
-
-                <div style="font-family: 'Times New Roman', Times, serif;">
-                  <a class="dropdown-item" href="#">Home</a>
-                </div>
-                
-              </li>
-
-              <li class="nav-item dropdown">
-
-                <div style="font-family: 'Times New Roman', Times, serif;">
-                  <a class="dropdown-item" href="produtos.html">Produtos</a>
-                </div>
-                
-              </li>
-
-              <li class="nav-item dropdown">
-
-                <div style="font-family: 'Times New Roman', Times, serif;">
-                  <a class="dropdown-item" href="nossas-lojas.html">Onde estamos</a>
-                </div>
-
-              </li>
-              
-            </ul>
-          </div>
-
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="nossas-lojas.html">Onde estamos</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    
   </div>
 
   <div class="container-fluid p-0">
@@ -73,13 +44,9 @@
     </div>
   </div>
 
-
-  <div class="linha">
-    <!--AQUI FICA O TRAÇO -->
-  </div>
+  <div class="linha"></div>
 
   <div class="background">
-    
     <div class="container text-center py-5">
       <div class="row">
         <div class="col-md-6">
@@ -95,35 +62,20 @@
             Na Lettera, a paixão pela leitura se transforma em um espaço acolhedor e inspirador. Nossa missão é oferecer um vasto acervo que abrange clássicos da literatura, novidades editoriais e obras independentes. Cada título é escolhido com carinho, refletindo a diversidade de vozes e histórias que enriquecem o mundo literário. Promovemos eventos que conectam leitores e autores, criando um diálogo vibrante sobre ideias e inspirações. Acreditamos que cada livro é uma janela para novos horizontes e um convite à reflexão. Venha explorar, sonhar e se perder nas páginas de um bom livro na Lettera.
           </p>
         </div>
-        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
-          <img src="img/Dante e Virgilio.jpeg" alt="" width="300px" height="250px">
+        <div class="col-md-6">
+          <img src="img/Dante e Virgilio.jpeg" alt="Imagem" class="img-fluid">
         </div>
-
       </div>
     </div>
-  </div>
-  
 
-  <div class="Nossaslojas">
-    <!--AQUI FICA O QUADRADO VERDE-->
-    <h1 style="font-weight: bolder; text-align: center; padding-top: 30px; margin-right: 30px; color: white;">
-      NOSSAS LOJAS
-    </h1>
-
-    <div class="fonte-times; texto1">
-      <p
-        style="text-align: center; color: white; width: 500px; margin-right: auto; margin-left: auto; padding-top: 20px;">
-        Descubra nossas lojas! Clique aqui para encontrar as localizações da Lettera perto de você.
-         Estamos ansiosos para recebê-lo em nossos espaços acolhedores, onde a paixão pela leitura se transforma em uma experiência única.
-      </p>
-    </div>
-
-    <div style="text-align: center; margin-right: auto; margin-left: auto; padding-top: 20px;">
+    <div class="Nossaslojas text-center bg-success py-5">
+      <h1 style="color: white;">NOSSAS LOJAS</h1>
+      <p style="color: white;">Descubra nossas lojas! Clique aqui para encontrar as localizações da Lettera perto de você. Estamos ansiosos para recebê-lo em nossos espaços acolhedores, onde a paixão pela leitura se transforma em uma experiência única.</p>
       <button type="button" class="btn btn-outline-light" onclick="window.location.href='nossas-lojas.html'">Clique Aqui</button>
     </div>
   </div>
-  </div>
 
+  
   <div class="carrossel">
     <!--AQUI FICA O CARROSEL-->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -152,6 +104,7 @@
   </div>
 
 
+
   <div>
     <!--AQUI FICA O LIVRO-->
   </div>
@@ -160,9 +113,6 @@
   <div class="linhaMaior">
     <!--AQUI FICA O TRAÇO MAIOR-->
   </div>
-
-
-
 
 
 
@@ -180,8 +130,6 @@
       </div>
 
   </div>  
-
-
 
 
 
